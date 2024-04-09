@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <H1> 타입리프 사용 법 은 "${} EL형식이 가능하다." </H1>
+    <H2 th:text="${'Hello World'}"></H2>
+    <H1> 타입리프는 EL과 다른 방법으로도 표시됨</H1>
+    <H2> [[ ${'자바 지옥 환영합니다.'} ]] </H2>
+</body>
+</html>
